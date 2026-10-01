@@ -1,0 +1,25 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node dist/src/test/runTests.js",
+    "start": "tsc && node dist/src/api/main.js",
+    "demo": "tsc && node dist/src/demo/demo.js",
+    "cli": "tsc && node dist/src/cli/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}

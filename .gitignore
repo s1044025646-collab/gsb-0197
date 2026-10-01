@@ -1,0 +1,9 @@
+node_modules/
+dist/
+data/
+*.log
+prism.json
+k33.json
+prism2.json
+rev.json
+identity.json
