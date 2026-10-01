@@ -1,0 +1,23 @@
+{
+  "name": "graph-iso-backend",
+  "version": "1.0.0",
+  "description": "至多十个顶点的简单无向图同构规范标号与自同构计数后端（TypeScript + Node.js + SQLite）",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "gisocli": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/server.ts",
+    "serve": "node dist/server.js",
+    "cli": "tsx src/cli.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "demo": "powershell -ExecutionPolicy Bypass -File scripts/demo.ps1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
